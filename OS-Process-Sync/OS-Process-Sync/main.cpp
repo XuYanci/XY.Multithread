@@ -17,9 +17,9 @@ int main(int argc, const char * argv[]) {
     /// 多缓存区问题
     
     /*
-     sem mutex
-     sem full
-     sem empty
+     sem mutex (互斥)
+     sem full  (同步)
+     sem empty (同步)
      
      Producer:
      
@@ -36,7 +36,7 @@ int main(int argc, const char * argv[]) {
      
      }
      
-     Comsumer: 
+     Comsumer:
      do {
      ...
      wait(full);
