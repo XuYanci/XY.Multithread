@@ -12,12 +12,54 @@ int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    /// 生产者消费者问题
+    /// 1.生产者消费者问题
     /// 单缓存区问题
     /// 多缓存区问题
-    /// 读写问题
     
-    /// 哲学家问题
+    /*
+     sem mutex
+     sem full
+     sem empty
+     
+     Producer:
+     
+     do {
+     produce an item in next p
+     ...
+     wait(empty)
+     wait(mutex)
+     ...
+     add next p to buffer
+     ...
+     signal(mutex)
+     signal(full)
+     
+     }
+     
+     Comsumer: 
+     do {
+     ...
+     wait(full);
+     wait(mutex);
+     ...
+     remove an item from buffer
+     ...
+     signal(mutex);
+     signal(full);
+     ...
+     comsume the item in next c
+     ...
+     
+     }
+     
+     
+    */
+    
+    
+    
+    /// 2.读写问题
+    
+    /// 3.哲学家问题
     
     return 0;
 }
