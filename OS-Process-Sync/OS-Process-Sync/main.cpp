@@ -59,7 +59,61 @@ int main(int argc, const char * argv[]) {
     
     /// 2.读写问题
     
-    /// 3.哲学家问题
+    /*
+     Readers:
+     P(M);
+     rc++
+     if(rc==1) P(W);
+     V(M);
+     读
+     P(M);
+     rc--;
+     if(rc==0)V(W);
+     V(M);
+     
+     Writers:
+     P(W);
+     写
+     V(W);
+    */
+    
+    
+    /// 3.哲学家问题 (五个哲学家，只有五个筷子)
+    /// (1) 只允许4个哲学家
+    
+    /*
+        ...
+     semephore *chopstick[5]; // 初始值为1
+     semaphore *seat;// 初始值为4
+     
+     哲学家i:
+     ...
+     P(seat);
+     P(chopStick[i]);
+     P(chopStick[(i+1)%5);
+     吃饭
+     V(chopStick[i]);
+     V(chopStick[(i+1)%5]);
+     V(seat);
+     ...
+     
+    */
+    
+    
+    /// (2) 同时拿筷子
+    
+    /*
+     int *state={Thinking,hungry,eating};
+     semaphore *ph[5]; // 初始化为0
+     void test(int i) {
+     if(state[i] == hungry)
+     && (state[(i+4)%5)!=eating)
+     && (state[(i+1)%5]!=eating) {
+        state[i] = eating;
+        V(ph[i]);
+     }
+     */
+    /// (3) 给所有哲学家编号，奇数号哲学家必须首先拿左边筷子，偶数号哲学家则反之
     
     return 0;
 }
