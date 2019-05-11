@@ -105,6 +105,7 @@ int main(int argc, const char * argv[]) {
     /*
      int *state={Thinking,hungry,eating};
      semaphore *ph[5]; // 初始化为0
+     semaphore *m; // 初始值为1
      void test(int i) {
      if(state[i] == hungry)
      && (state[(i+4)%5)!=eating)
@@ -112,6 +113,23 @@ int main(int argc, const char * argv[]) {
         state[i] = eating;
         V(ph[i]);
      }
+     
+     哲学家i: 0 ~ 4
+     思考中...
+     state[i] = hungry;
+     P(m);
+     test(i);
+     V(m)
+     P(ph[i]);
+     
+     吃饭...
+     放下左边筷子
+     放下右边筷子
+     state[i] = thinking;
+     test((i+4)%5);
+     test((i+1)%5);
+     ...
+     
      */
     /// (3) 给所有哲学家编号，奇数号哲学家必须首先拿左边筷子，偶数号哲学家则反之
     
