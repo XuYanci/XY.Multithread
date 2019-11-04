@@ -17,6 +17,9 @@ using namespace std::placeholders;
 #include <semaphore.h>
 #include <pthread.h>
 
+/// 按需打印
+/// 思路:
+/// 主要考察同步动作，使用信号量进行同步即可。
 class Foo {
 public:
     
