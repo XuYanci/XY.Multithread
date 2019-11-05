@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AD56C28E236DDF30009EBFC6 /* Foo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD56C28C236DDF30009EBFC6 /* Foo.cpp */; };
 		AD56C29223707B1B009EBFC6 /* FooBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD56C29023707B1B009EBFC6 /* FooBar.cpp */; };
+		AD56C2952370F9C6009EBFC6 /* ZeroEvenOdd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD56C2932370F9C6009EBFC6 /* ZeroEvenOdd.cpp */; };
 		ADA79ED62284756C00546F5D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADA79ED52284756C00546F5D /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,8 @@
 		AD56C28F236DDFA4009EBFC6 /* Note */ = {isa = PBXFileReference; lastKnownFileType = text; path = Note; sourceTree = "<group>"; };
 		AD56C29023707B1B009EBFC6 /* FooBar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FooBar.cpp; sourceTree = "<group>"; };
 		AD56C29123707B1B009EBFC6 /* FooBar.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FooBar.hpp; sourceTree = "<group>"; };
+		AD56C2932370F9C6009EBFC6 /* ZeroEvenOdd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ZeroEvenOdd.cpp; sourceTree = "<group>"; };
+		AD56C2942370F9C6009EBFC6 /* ZeroEvenOdd.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ZeroEvenOdd.hpp; sourceTree = "<group>"; };
 		ADA79ED22284756C00546F5D /* OS-Process-Sync */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OS-Process-Sync"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA79ED52284756C00546F5D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +73,8 @@
 				AD56C29023707B1B009EBFC6 /* FooBar.cpp */,
 				AD56C29123707B1B009EBFC6 /* FooBar.hpp */,
 				AD56C28F236DDFA4009EBFC6 /* Note */,
+				AD56C2932370F9C6009EBFC6 /* ZeroEvenOdd.cpp */,
+				AD56C2942370F9C6009EBFC6 /* ZeroEvenOdd.hpp */,
 			);
 			path = "OS-Process-Sync";
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD56C28E236DDF30009EBFC6 /* Foo.cpp in Sources */,
+				AD56C2952370F9C6009EBFC6 /* ZeroEvenOdd.cpp in Sources */,
 				AD56C29223707B1B009EBFC6 /* FooBar.cpp in Sources */,
 				ADA79ED62284756C00546F5D /* main.cpp in Sources */,
 			);
