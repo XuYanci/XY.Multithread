@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD1376D6241B764A008EBBDE /* ProducerComsumer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD1376D4241B764A008EBBDE /* ProducerComsumer.cpp */; };
+		AD1376D9241B7656008EBBDE /* ReaderWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD1376D7241B7656008EBBDE /* ReaderWriter.cpp */; };
+		AD1376DC241B7677008EBBDE /* Philosopher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD1376DA241B7677008EBBDE /* Philosopher.cpp */; };
+		AD1376E2241BDF34008EBBDE /* FizzBUzz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD1376E0241BDF34008EBBDE /* FizzBUzz.cpp */; };
 		AD56C28E236DDF30009EBFC6 /* Foo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD56C28C236DDF30009EBFC6 /* Foo.cpp */; };
 		AD56C29223707B1B009EBFC6 /* FooBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD56C29023707B1B009EBFC6 /* FooBar.cpp */; };
 		AD56C2952370F9C6009EBFC6 /* ZeroEvenOdd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD56C2932370F9C6009EBFC6 /* ZeroEvenOdd.cpp */; };
 		AD56C29823732D04009EBFC6 /* DiningPhilosophers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD56C29623732D04009EBFC6 /* DiningPhilosophers.cpp */; };
 		ADA79ED62284756C00546F5D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADA79ED52284756C00546F5D /* main.cpp */; };
+		ADF4B1B22398142D006EDF32 /* H2O.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADF4B1B02398142D006EDF32 /* H2O.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +32,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AD1376D4241B764A008EBBDE /* ProducerComsumer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ProducerComsumer.cpp; sourceTree = "<group>"; };
+		AD1376D5241B764A008EBBDE /* ProducerComsumer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ProducerComsumer.hpp; sourceTree = "<group>"; };
+		AD1376D7241B7656008EBBDE /* ReaderWriter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReaderWriter.cpp; sourceTree = "<group>"; };
+		AD1376D8241B7656008EBBDE /* ReaderWriter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReaderWriter.hpp; sourceTree = "<group>"; };
+		AD1376DA241B7677008EBBDE /* Philosopher.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Philosopher.cpp; sourceTree = "<group>"; };
+		AD1376DB241B7677008EBBDE /* Philosopher.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Philosopher.hpp; sourceTree = "<group>"; };
+		AD1376E0241BDF34008EBBDE /* FizzBUzz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FizzBUzz.cpp; sourceTree = "<group>"; };
+		AD1376E1241BDF34008EBBDE /* FizzBUzz.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FizzBUzz.hpp; sourceTree = "<group>"; };
 		AD56C28C236DDF30009EBFC6 /* Foo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Foo.cpp; sourceTree = "<group>"; };
 		AD56C28D236DDF30009EBFC6 /* Foo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Foo.hpp; sourceTree = "<group>"; };
 		AD56C28F236DDFA4009EBFC6 /* Note */ = {isa = PBXFileReference; lastKnownFileType = text; path = Note; sourceTree = "<group>"; };
@@ -38,6 +51,8 @@
 		AD56C29723732D04009EBFC6 /* DiningPhilosophers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DiningPhilosophers.hpp; sourceTree = "<group>"; };
 		ADA79ED22284756C00546F5D /* OS-Process-Sync */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OS-Process-Sync"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA79ED52284756C00546F5D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ADF4B1B02398142D006EDF32 /* H2O.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = H2O.cpp; sourceTree = "<group>"; };
+		ADF4B1B12398142D006EDF32 /* H2O.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = H2O.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +95,16 @@
 				AD56C2942370F9C6009EBFC6 /* ZeroEvenOdd.hpp */,
 				AD56C29623732D04009EBFC6 /* DiningPhilosophers.cpp */,
 				AD56C29723732D04009EBFC6 /* DiningPhilosophers.hpp */,
+				ADF4B1B02398142D006EDF32 /* H2O.cpp */,
+				ADF4B1B12398142D006EDF32 /* H2O.hpp */,
+				AD1376D4241B764A008EBBDE /* ProducerComsumer.cpp */,
+				AD1376D5241B764A008EBBDE /* ProducerComsumer.hpp */,
+				AD1376D7241B7656008EBBDE /* ReaderWriter.cpp */,
+				AD1376D8241B7656008EBBDE /* ReaderWriter.hpp */,
+				AD1376DA241B7677008EBBDE /* Philosopher.cpp */,
+				AD1376DB241B7677008EBBDE /* Philosopher.hpp */,
+				AD1376E0241BDF34008EBBDE /* FizzBUzz.cpp */,
+				AD1376E1241BDF34008EBBDE /* FizzBUzz.hpp */,
 			);
 			path = "OS-Process-Sync";
 			sourceTree = "<group>";
@@ -141,10 +166,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD56C29823732D04009EBFC6 /* DiningPhilosophers.cpp in Sources */,
+				AD1376DC241B7677008EBBDE /* Philosopher.cpp in Sources */,
+				AD1376D9241B7656008EBBDE /* ReaderWriter.cpp in Sources */,
 				AD56C28E236DDF30009EBFC6 /* Foo.cpp in Sources */,
 				AD56C2952370F9C6009EBFC6 /* ZeroEvenOdd.cpp in Sources */,
+				ADF4B1B22398142D006EDF32 /* H2O.cpp in Sources */,
+				AD1376D6241B764A008EBBDE /* ProducerComsumer.cpp in Sources */,
 				AD56C29223707B1B009EBFC6 /* FooBar.cpp in Sources */,
 				ADA79ED62284756C00546F5D /* main.cpp in Sources */,
+				AD1376E2241BDF34008EBBDE /* FizzBUzz.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
