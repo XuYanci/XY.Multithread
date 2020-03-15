@@ -10,5 +10,7 @@
 #define Philosopher_hpp
 
 #include <stdio.h>
-
+class Philosopher {
+    
+};
 #endif /* Philosopher_hpp */

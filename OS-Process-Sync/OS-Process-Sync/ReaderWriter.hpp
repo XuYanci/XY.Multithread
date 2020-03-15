@@ -10,5 +10,7 @@
 #define ReaderWriter_hpp
 
 #include <stdio.h>
-
+class ReaderWriter {
+    
+};
 #endif /* ReaderWriter_hpp */

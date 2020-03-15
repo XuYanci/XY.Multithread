@@ -11,6 +11,7 @@
 		AD1376D9241B7656008EBBDE /* ReaderWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD1376D7241B7656008EBBDE /* ReaderWriter.cpp */; };
 		AD1376DC241B7677008EBBDE /* Philosopher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD1376DA241B7677008EBBDE /* Philosopher.cpp */; };
 		AD1376E2241BDF34008EBBDE /* FizzBUzz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD1376E0241BDF34008EBBDE /* FizzBUzz.cpp */; };
+		AD1376E8241D0C85008EBBDE /* iOSLocks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD1376E6241D0C85008EBBDE /* iOSLocks.cpp */; };
 		AD56C28E236DDF30009EBFC6 /* Foo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD56C28C236DDF30009EBFC6 /* Foo.cpp */; };
 		AD56C29223707B1B009EBFC6 /* FooBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD56C29023707B1B009EBFC6 /* FooBar.cpp */; };
 		AD56C2952370F9C6009EBFC6 /* ZeroEvenOdd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD56C2932370F9C6009EBFC6 /* ZeroEvenOdd.cpp */; };
@@ -40,9 +41,10 @@
 		AD1376DB241B7677008EBBDE /* Philosopher.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Philosopher.hpp; sourceTree = "<group>"; };
 		AD1376E0241BDF34008EBBDE /* FizzBUzz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FizzBUzz.cpp; sourceTree = "<group>"; };
 		AD1376E1241BDF34008EBBDE /* FizzBUzz.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FizzBUzz.hpp; sourceTree = "<group>"; };
+		AD1376E6241D0C85008EBBDE /* iOSLocks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iOSLocks.cpp; sourceTree = "<group>"; };
+		AD1376E7241D0C85008EBBDE /* iOSLocks.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = iOSLocks.hpp; sourceTree = "<group>"; };
 		AD56C28C236DDF30009EBFC6 /* Foo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Foo.cpp; sourceTree = "<group>"; };
 		AD56C28D236DDF30009EBFC6 /* Foo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Foo.hpp; sourceTree = "<group>"; };
-		AD56C28F236DDFA4009EBFC6 /* Note */ = {isa = PBXFileReference; lastKnownFileType = text; path = Note; sourceTree = "<group>"; };
 		AD56C29023707B1B009EBFC6 /* FooBar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FooBar.cpp; sourceTree = "<group>"; };
 		AD56C29123707B1B009EBFC6 /* FooBar.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FooBar.hpp; sourceTree = "<group>"; };
 		AD56C2932370F9C6009EBFC6 /* ZeroEvenOdd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ZeroEvenOdd.cpp; sourceTree = "<group>"; };
@@ -90,7 +92,6 @@
 				AD56C28D236DDF30009EBFC6 /* Foo.hpp */,
 				AD56C29023707B1B009EBFC6 /* FooBar.cpp */,
 				AD56C29123707B1B009EBFC6 /* FooBar.hpp */,
-				AD56C28F236DDFA4009EBFC6 /* Note */,
 				AD56C2932370F9C6009EBFC6 /* ZeroEvenOdd.cpp */,
 				AD56C2942370F9C6009EBFC6 /* ZeroEvenOdd.hpp */,
 				AD56C29623732D04009EBFC6 /* DiningPhilosophers.cpp */,
@@ -105,6 +106,8 @@
 				AD1376DB241B7677008EBBDE /* Philosopher.hpp */,
 				AD1376E0241BDF34008EBBDE /* FizzBUzz.cpp */,
 				AD1376E1241BDF34008EBBDE /* FizzBUzz.hpp */,
+				AD1376E6241D0C85008EBBDE /* iOSLocks.cpp */,
+				AD1376E7241D0C85008EBBDE /* iOSLocks.hpp */,
 			);
 			path = "OS-Process-Sync";
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				AD1376DC241B7677008EBBDE /* Philosopher.cpp in Sources */,
 				AD1376D9241B7656008EBBDE /* ReaderWriter.cpp in Sources */,
 				AD56C28E236DDF30009EBFC6 /* Foo.cpp in Sources */,
+				AD1376E8241D0C85008EBBDE /* iOSLocks.cpp in Sources */,
 				AD56C2952370F9C6009EBFC6 /* ZeroEvenOdd.cpp in Sources */,
 				ADF4B1B22398142D006EDF32 /* H2O.cpp in Sources */,
 				AD1376D6241B764A008EBBDE /* ProducerComsumer.cpp in Sources */,
